@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form | Prime College</title>
+</head>
+
+<body>
+    <center>
+        <img src="logo.jpg" width="200px" height="75px">
+        <p style="font-size:15px"> Khusibun, Nayabazar, Kathmandu <br>
+            Contact: 01-4970072, 4361690 | Email: info@prime.edu.np | Website: www.prime.edu.np </p>
+        <p style="font-size: 20px"> Admission Applicaton Form </p> <br>
+    </center>
+    <p align = "left">  Recent PP Size Photo: <input type="file" name="file" /></p> <br> <br>
+    <form action="welcome.html" method="post">
+        <fieldset>
+            <legend> FACULTY </legend>
+            <fieldset>
+                <legend> Bachelor Level </legend>
+                <input type="radio" name="bl" value="bim"> BIM <input type="radio" name="bl" value="bba"> BBA
+                <input type="radio" name="bl" value="bbs"> BBS <input type="radio" name="bl" value="csit"> BSc.CSIT
+                <input type="radio" name="bl" value="bca"> BCA <input type="radio" name="bl" value="bbm"> BBM
+            </fieldset>
+            <fieldset>
+                <legend> Master Level </legend>
+                <input type="radio" name="bl" value="mbs"> MBS
+            </fieldset>
+        </fieldset> <br>
+        <fieldset>
+            <legend> STUDENT PROFILE </legend>
+            Student's Name: <input type="text" name="firstname" /> <br> <br>
+            Date of Birth (AD): <input type="date" name="dob" /> Date of Birth (BS): <input type="text" name="dob" />
+            <br> <br>
+            Place of birth: Province: <input type="text" name="province" /> District: <input type="text"
+                name="district" /> Village/City: <input type="text" name="village" /> <br> <br>
+            Gender: <input type="radio" name="gender" value="male" /> Male <input type="radio" name="gender"
+                value="female" /> Female <input type="radio" name="gender" value="others" /> Others <br>
+        </fieldset> <br> <br>
+        <fieldset>
+            <legend> PRESENT ADDRESS </legend>
+            Tole (Street) / Ward: <input type="text" name="tole" /> Metropolis / Municipality: <input type="text"
+                name="metro" /> District: <input type="text" name="province" />
+            Province: <input type="text" name="district" /> <br> <br>
+            Telephone: <input type="number" name="telephone" /> Cell: <input type="number" name="cell" /> Email: <input
+                type="email" name="email" />
+        </fieldset> <br> <br>
+        <fieldset>
+            <legend> PARENTS PROFILE </legend>
+            Father's name: <input type="text" name="fname" /> Nationality: <input type="text" name="nationality" />
+            Educational Status: <input type="text" name="edu" /> <br> <br>
+            Employer (Organization): <input type="text" name="emp" /> Occupation: <input type="text" name="occu" /> <br>
+            <br>
+            Business Address: <input type="text" name="bad" /> <br> <br>
+            Telephone: <input type="number" name="ftel" /> Cell: <input type="number" name="fcell" /> Email: <input
+                type="email" name="fe" /> <br> <br>
+            Mother's name: <input type="text" name="mname" /> Nationality: <input type="text" name="nationality" />
+            Educational Status: <input type="text" name="edu" /> <br> <br>
+            Employer (Organization): <input type="text" name="emp" /> Occupation: <input type="text" name="occu" /> <br>
+            <br>
+            Business Address: <input type="text" name="bad" /> <br> <br>
+            Telephone: <input type="number" name="ftel" /> Cell: <input type="number" name="fcell" /> Email: <input
+                type="email" name="fe" /> <br> <br>
+            Local Guardian's Name (if staying with Local Guardian): <input type="text" name="localg" /> <br> <br>
+            Relationship: <input type="text" name="Relationship" /> Phone Number: <input type="number" name="Phone" />
+            <br> <br>
+            Local Guardain's Address: <input type="text" name="la" />
+        </fieldset> <br> <br>
+        <fieldset>
+            <legend> EDUCATIONAL INFORMATION </legend>
+            <table border="1" width="100%" align="center" cellspacing="0" cellpadding="2">
+                <tr>
+                    <th>Level</th>
+                    <th>Stream</th>
+                    <th>Board</th>
+                    <th>School/College</th>
+                    <th>Grade</th>
+                    <th>CGPA</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>SEE or Equivalent</td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="50" /></td>
+                    <td><input type="Text" maxlength="2" /></td>
+                    <td><input type="Text" maxlength="4" /></td>
+                    <td><input type="number" maxlength="4" /></td>
+                </tr>
+                <tr>
+                    <td>+2 Level or Equivalent</td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="50" /></td>
+                    <td><input type="Text" maxlength="2" /></td>
+                    <td><input type="Text" maxlength="4" /></td>
+                    <td><input type="number" maxlength="4" /></td>
+                </tr>
+                <tr>
+                    <td>Bachelor Level</td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="10" /></td>
+                    <td><input type="text" maxlength="50" /></td>
+                    <td><input type="Text" maxlength="2" /></td>
+                    <td><input type="Text" maxlength="4" /></td>
+                    <td><input type="number" maxlength="4" /></td>
+                </tr>
+            </table>
+        </fieldset> <br> <br>
+        How did you find out Prime College and its Educational Programs? <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+        <h3> PERSONAL STATEMENTS</h3>
+        Please write why you decided to choose Prime & this course. <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+        Please write about yourself and give details of your personal achievements and interests. <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+        List your career objectives. <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+        Do you have any learning or other difficulties that require extra support? <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+        <h3> STUDENT DECLERATION </h3>
+        <input type="checkbox"> I hearby declare that I have read all the instructions provided by the college & that
+        the information provided by me is true and
+        complete in every aspect. I understand that it is my responsibility to provide all necessary documents to
+        supplement my application. <br> <br>
+        <input type="checkbox"> I also acknowledge that the College Management reserves all the right regarding my
+        admission. I have read and understood the College Rules
+        and Regulations as stated in the prospectus/students handbook and the conditions thereof. I promise to be abide
+        by the said rules and regulations
+        of the institution. <br> <br>
+        Signature of Student: <input type="file" name="file" /> <br> <br>
+        Remarks <br>
+        <textarea rows="5" cols="50" name="description"> </textarea> <br> <br> <br>
+        <button type="Submit">SUBMIT</button> <button type="reset"> Clear Form </button>
+    </form> <br> <br> <br>
+    <footer align="center">&copy; 2022 </footer>
+</body>
+
+</html>
